@@ -13,12 +13,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderDemoComponent } from './mat-slider-demo/mat-slider-demo.component';
 import { MatAutocompleteDemoComponent } from './mat-autocomplete-demo/mat-autocomplete-demo.component';
+import { MatProgressBarDemoComponent } from './mat-progress-bar-demo/mat-progress-bar-demo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MatSliderDemoComponent,
-    MatAutocompleteDemoComponent
+    MatAutocompleteDemoComponent,
+    MatProgressBarDemoComponent
   ],
   imports: [
     BrowserModule,
