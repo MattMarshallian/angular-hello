@@ -16,4 +16,8 @@ export class MatAutocompleteDemoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  public getPosts(event: any) {
+    console.log('getPosts() event = ', event);
+  }
+
 }

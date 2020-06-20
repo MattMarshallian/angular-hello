@@ -1,7 +1,14 @@
 <p>mat-slider-demo works!</p>
 
 <div class="external-frame">
+  <mat-slider
+    min="1"
+    max="100"
+    step="1"
+    [(ngModel)]="value"
+    (input)="onInputChange($event.value)"
+  ></mat-slider>
 
-    <mat-slider min="1" max="100" step="1" value="1"></mat-slider>
-    
+  <mat-label>Value: {{ value }}</mat-label>
+
 </div>

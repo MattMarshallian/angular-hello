@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MatSliderDemoComponent implements OnInit {
 
+  public value = 1;
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  public onInputChange(event: any) {
+    // console.log('onInputChange() event = ', event);
+    this.value = event;
+    console.log('onInputChange() value = ', this.value);
+  }
+
 
 }
