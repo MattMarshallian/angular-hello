@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MatProgressBarDemoComponent implements OnInit {
 
+  public value: number;
+
   constructor() { }
 
   ngOnInit(): void {
+    this.value = 40;
+    setInterval(() => {
+      this.value = Math.abs(this.value + 30 * Math.random() - 15);
+      console.log('value = ', this.value);
+    }, 300);
   }
+
+
 
 }
