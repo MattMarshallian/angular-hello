@@ -7,6 +7,7 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatInputModule } from '@angular/material/input';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -16,13 +17,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderDemoComponent } from './mat-slider-demo/mat-slider-demo.component';
 import { MatAutocompleteDemoComponent } from './mat-autocomplete-demo/mat-autocomplete-demo.component';
 import { MatProgressBarDemoComponent } from './mat-progress-bar-demo/mat-progress-bar-demo.component';
+import { MatProgressSpinnerDemoComponent } from './mat-progress-spinner-demo/mat-progress-spinner-demo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MatSliderDemoComponent,
     MatAutocompleteDemoComponent,
-    MatProgressBarDemoComponent
+    MatProgressBarDemoComponent,
+    MatProgressSpinnerDemoComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +37,8 @@ import { MatProgressBarDemoComponent } from './mat-progress-bar-demo/mat-progres
     MatSelectModule,
     MatAutocompleteModule,
     MatInputModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
