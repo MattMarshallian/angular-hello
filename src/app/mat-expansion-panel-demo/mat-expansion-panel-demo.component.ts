@@ -7,11 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MatExpansionPanelDemoComponent implements OnInit {
 
-  public panelOpenState = false;
+  public panelOpenState: boolean = false;
+  public version: {
+    browser: string,
+    os: string,
+    product: string,
+    appCodeName: string
+  }
 
   constructor() { }
 
   ngOnInit(): void {
+    this.version = {
+      browser: window.navigator.userAgent,
+      os: window.navigator.platform,
+      product: window.navigator.product,
+      appCodeName: window.navigator.appCodeName
+    }
   }
 
 }
