@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MatProgressSpinnerDemoComponent implements OnInit {
 
+  public isVisible: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {

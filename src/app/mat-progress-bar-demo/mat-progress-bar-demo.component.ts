@@ -13,9 +13,9 @@ export class MatProgressBarDemoComponent implements OnInit {
 
   ngOnInit(): void {
     this.value = 40;
-    setInterval(() => {
-      this.value = Math.abs(this.value + 30 * Math.random() - 15);
-    }, 300);
+    // setInterval(() => {
+    //   this.value = Math.abs(this.value + 30 * Math.random() - 15);
+    // }, 300);
   }
 
 
