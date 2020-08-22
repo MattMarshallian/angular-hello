@@ -1,3 +1,5 @@
+// tslint:disable: no-inferrable-types
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
