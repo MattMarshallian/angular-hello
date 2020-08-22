@@ -1,3 +1,5 @@
+// tslint:disable: no-inferrable-types
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -13,7 +15,7 @@ export class MatExpansionPanelDemoComponent implements OnInit {
     os: string,
     product: string,
     appCodeName: string
-  }
+  };
 
   constructor() { }
 
@@ -23,7 +25,7 @@ export class MatExpansionPanelDemoComponent implements OnInit {
       os: window.navigator.platform,
       product: window.navigator.product,
       appCodeName: window.navigator.appCodeName
-    }
+    };
   }
 
 }

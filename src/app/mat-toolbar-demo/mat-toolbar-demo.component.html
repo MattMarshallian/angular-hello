@@ -1,11 +1,84 @@
 <div class="external-frame">
   <p>mat-toolbar-demo works!</p>
 
-  <div>
+  <div class="internal-container external-frame">
+    <p>basic</p>
     <mat-toolbar><span>My application</span></mat-toolbar>
   </div>
 
-  <div>
+  <div class="internal-container external-frame">
+    <p>basic with primary color</p>
     <mat-toolbar color="primary"><span>My application</span></mat-toolbar>
+  </div>
+
+  <div class="internal-container external-frame">
+    <p>multiple rows</p>
+    <mat-toolbar>
+      <mat-toolbar-row><span>First line</span></mat-toolbar-row>
+      <mat-toolbar-row><span>Second line</span></mat-toolbar-row>
+    </mat-toolbar>
+  </div>
+
+  <div class="internal-container external-frame">
+    <p>multiple tools with icons</p>
+
+    <mat-toolbar>
+      <button mat-icon-button class="example-icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span>First line</span>
+      <span class="example-spacer"></span>
+      <button mat-icon-button class="example-icon">
+        <mat-icon>favorite</mat-icon>
+      </button>
+    </mat-toolbar>
+
+    <mat-toolbar color="primary">
+      <button mat-icon-button class="example-icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span>Second line</span>
+      <span class="example-spacer"></span>
+      <button mat-icon-button class="example-icon">
+        <mat-icon>favorite</mat-icon>
+      </button>
+      <button mat-icon-button class="example-icon">
+        <mat-icon>share</mat-icon>
+      </button>
+    </mat-toolbar>
+  </div>
+
+  <div class="internal-container external-frame">
+    <p>multiple toolbar-rows with icons</p>
+
+    <mat-toolbar color="primary">
+      <mat-toolbar-row>
+        <button mat-icon-button class="example-icon">
+          <mat-icon>menu</mat-icon>
+        </button>
+        <span>First line</span>
+        <span class="example-spacer"></span>
+        <button mat-icon-button class="example-icon">
+          <mat-icon>favorite</mat-icon>
+        </button>
+      </mat-toolbar-row>
+
+      <mat-toolbar-row color="primary">
+        <button mat-icon-button class="example-icon">
+          <mat-icon>menu</mat-icon>
+        </button>
+        <span>Second line</span>
+        <span class="example-spacer"></span>
+        <button mat-icon-button class="example-icon">
+          <mat-icon>favorite</mat-icon>
+        </button>
+        <button mat-icon-button class="example-icon">
+          <mat-icon>share</mat-icon>
+        </button>
+        <button mat-icon-button class="example-icon">
+          <mat-icon>verified_user</mat-icon>
+        </button>
+      </mat-toolbar-row>
+    </mat-toolbar>
   </div>
 </div>
