@@ -4,7 +4,7 @@ import { FormControl } from '@angular/forms';
 @Component({
   selector: 'app-mat-autocomplete-demo',
   templateUrl: './mat-autocomplete-demo.component.html',
-  styleUrls: ['./mat-autocomplete-demo.component.css', '../app.component.css']
+  styleUrls: ['./mat-autocomplete-demo.component.css']
 })
 export class MatAutocompleteDemoComponent implements OnInit {
 
