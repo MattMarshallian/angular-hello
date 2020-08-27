@@ -13,6 +13,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatCardModule } from '@angular/material/card';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -26,6 +27,7 @@ import { MatProgressSpinnerDemoComponent } from './mat-progress-spinner-demo/mat
 import { MatExpansionPanelDemoComponent } from './mat-expansion-panel-demo/mat-expansion-panel-demo.component';
 import { MatToolbarDemoComponent } from './mat-toolbar-demo/mat-toolbar-demo.component';
 import { MatCheckboxDemoComponent } from './mat-checkbox-demo/mat-checkbox-demo.component';
+import { MatCardDemoComponent } from './mat-card-demo/mat-card-demo.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,8 @@ import { MatCheckboxDemoComponent } from './mat-checkbox-demo/mat-checkbox-demo.
     MatProgressSpinnerDemoComponent,
     MatExpansionPanelDemoComponent,
     MatToolbarDemoComponent,
-    MatCheckboxDemoComponent
+    MatCheckboxDemoComponent,
+    MatCardDemoComponent
   ],
   imports: [
     BrowserModule,
@@ -54,7 +57,8 @@ import { MatCheckboxDemoComponent } from './mat-checkbox-demo/mat-checkbox-demo.
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
